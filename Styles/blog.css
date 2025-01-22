@@ -184,6 +184,9 @@ a{
     background-color: blue;
     padding: 8px;
 }
+.view{
+    text-align: center;
+}
 
 @media screen and (max-width:576px) {
     .first{
@@ -192,4 +195,31 @@ a{
     .story{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+         }
+}
+
+
+.kids{
+    display: flex;
+}
+.ul2{
+    list-style: none;
+}
+.foot{
+    background-color: blue;
+    color: white;
+    margin-top: 30px;
+}
+.footer{
+    max-width: 1300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr repeat(2, 1fr);
+    justify-content: space-between;
+    padding: 20px;
+}
+@media screen and (max-width:576px) {
+    .footer{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
