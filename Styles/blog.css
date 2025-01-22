@@ -157,6 +157,16 @@ a{
     font-weight: bold;
     font-size: larger;
 }
+.right:hover{
+    background-color: white;
+    color: orange;
+    border: 1px solid orange;
+}
+.left:hover{
+    background-color: white;
+    color: orange;
+    border: 1px solid orange;
+}
 .move{
     text-align: center;
     margin-top: 60px;
