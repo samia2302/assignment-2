@@ -52,7 +52,7 @@ a{
     width: 100px;
     display: none;
 }
-.hr{
+.line{
     display: none;
 }
 
@@ -106,8 +106,9 @@ a{
     .li{
         margin-right: 0;
     }
-    .hr{
+    .line{
         display: block;
+        border: 1px solid orange;
     }
     .img2{
         width: 100%;
