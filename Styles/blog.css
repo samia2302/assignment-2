@@ -49,7 +49,6 @@ a{
     font-weight: bold;
 }
 .threelines{
-    width: 100px;
     display: none;
 }
 .line{
@@ -95,7 +94,8 @@ a{
         display: none;
     }
     .threelines{
-        display: block;
+        display:block;
+        width: 90px;
     }
     .header{
         max-width: auto;
