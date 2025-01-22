@@ -1,0 +1,179 @@
+.header{
+    max-width: 1300px;
+    margin: auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.school{
+    display: flex;
+}
+.img1{
+    margin-right: 10px;
+}
+.ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+.li{
+    margin-right: 15px;
+}
+
+.home{
+    color: orange;
+}
+.about{
+    color: blue;
+}
+.facilities{
+    color: green;
+}
+.addmission{
+    color: violet;
+}
+.btn1{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+}
+.student{
+    font-size: 50px;
+     width: 55%; 
+}
+.emp{
+    color: orange;
+}
+.vision{
+    color: blue;
+}
+.kin{
+    opacity: 0.8;
+}
+.btn2{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.threelines{
+    width: 100px;
+    display: none;
+}
+.hr{display: none;
+}
+@media screen and (max-width:576px) {
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .empower{
+        text-align: center;
+    }
+    .student{
+        width: 95%;
+    }
+    .scho, .ul, .btn1{
+        display: none;
+    }
+    .threelines{
+        display: block;
+    }
+    .header{
+        max-width: auto;
+    }
+    .img1{
+        width: 100%;
+    }
+    .li{
+        margin-right: 0;
+    }
+    .hr{
+        display: block;
+    }
+}
+
+
+.main{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.curriculum{
+    background-image: url(/Images/bg.png);
+}
+.stan{
+    text-align: center;
+    margin-top: 50px;
+}
+.curri{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    border: 1px solid rgb(234, 230, 230);
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 15px;
+    text-align: center;
+    background-image: linear-gradient(skyblue, white);
+}
+.komola{
+    background-image: linear-gradient(orange, white);
+}
+.beguni{
+    background-image: linear-gradient(violet, white);
+}
+.right, .left{
+    background-color: orange;
+    border-radius: 50%;
+    display: inline;
+    padding: 20px;
+    color: white;
+}
+.move{
+    text-align: center;
+    margin-top: 60px;
+}
+@media screen and (max-width: 576px) {
+    .curri{
+        flex-direction: column;   
+    }
+    .box{
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+}
+
+
+.stories{
+    background-image: url(/Images/bg.png);
+}
+.fun{
+    border: 1px solid rgb(234, 230, 230);
+    border-radius: 10px;
+}
+.story{
+    display: grid;
+    grid-template-columns: 2fr repeat(2, 1fr);
+    gap: 20px; 
+}
+#one{
+    grid-row: span 2;
+}
+.todd{
+    width: 100%;
+}
