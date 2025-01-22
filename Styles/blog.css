@@ -50,6 +50,7 @@ a{
 }
 .threelines{
     display: none;
+    width: 90px;
 }
 .line{
     display: none;
@@ -95,7 +96,6 @@ a{
     }
     .threelines{
         display:block;
-        width: 90px;
     }
     .header{
         max-width: auto;
