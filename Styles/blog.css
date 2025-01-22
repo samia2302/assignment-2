@@ -172,6 +172,9 @@ a{
     .right, .left{
         display: none;
     }
+    .move{
+        margin-top: 0px;
+    }
 }
 
 /* our stories */
