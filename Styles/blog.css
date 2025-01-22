@@ -122,7 +122,7 @@ a{
 
 /* standard curriculum */
 .curriculum{
-    background-image: url(/Images/bg.png);
+    background-image: url(../Images/bg.png);
 }
 .stan{
     text-align: center;
@@ -189,7 +189,7 @@ a{
 
 /* our stories */
 .our{
-    background-image: url(/Images/bg.png), linear-gradient(white,sandybrown);
+    background-image: url(../Images/bg.png), linear-gradient(white,sandybrown);
     padding: 1px;
 }
 .fun{
