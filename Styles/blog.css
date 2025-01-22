@@ -2,6 +2,7 @@
     max-width: 1300px;
     margin: auto;
 }
+/* navber */
 .nav{
     display: flex;
     justify-content: space-between;
@@ -10,10 +11,10 @@
 .school{
     display: flex;
 }
-.img1{
-    margin-right: 10px;
+.scho{
+    margin-left: 10px;
 }
-.ul{
+.list-one{
     display: flex;
     list-style: none;
     justify-content: space-between;
@@ -21,10 +22,9 @@
 a{
     text-decoration: none;
 }
-.li{
+.list{
     margin-right: 15px;
 }
-
 .home{
     color: orange;
 }
@@ -35,7 +35,10 @@ a{
     color: green;
 }
 .addmission{
-    color: violet;
+    color: rgb(65, 16, 65);
+}
+.bar{
+    margin-left: 25px;
 }
 .btn1{
     background-color: orange;
@@ -45,14 +48,22 @@ a{
     border-radius: 10px;
     font-weight: bold;
 }
+.threelines{
+    width: 100px;
+    display: none;
+}
+.hr{
+    display: none;
+}
 
+/* Banner */
 .banner{
     display: flex;
     align-items: center;
 }
 .student{
     font-size: 50px;
-     width: 55%; 
+    width: 55%; 
 }
 .emp{
     color: orange;
@@ -70,12 +81,6 @@ a{
     padding: 10px 30px;
     border-radius: 10px;
 }
-.threelines{
-    width: 100px;
-    display: none;
-}
-.hr{display: none;
-}
 @media screen and (max-width:576px) {
     .banner{
         flex-direction: column-reverse;
@@ -86,7 +91,7 @@ a{
     .student{
         width: 95%;
     }
-    .scho, .ul, .btn1{
+    .scho, .list-one, .btn1{
         display: none;
     }
     .threelines{
@@ -104,6 +109,9 @@ a{
     .hr{
         display: block;
     }
+    .img2{
+        width: 100%;
+    }
 }
 
 
@@ -112,12 +120,14 @@ a{
     margin: auto;
 }
 
+/* standard curriculum */
 .curriculum{
-    background-image: url(/Images/bg.png);
+    background-image:linear-gradient(white,rgb(216, 240, 250));
 }
 .stan{
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 .curri{
     display: flex;
@@ -143,6 +153,9 @@ a{
     display: inline;
     padding: 20px;
     color: white;
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: larger;
 }
 .move{
     text-align: center;
@@ -156,14 +169,14 @@ a{
         margin-right: 0;
         margin-bottom: 15px;
     }
-    .img2{
-        width: 100%;
+    .right, .left{
+        display: none;
     }
 }
 
-
-.stories{
-    background-image: linear-gradient(#ffffff #f7c570), url(/Images/bg.png);
+/* our stories */
+.our{
+    background-image: url(/Images/bg.png);
 }
 .fun{
     border: 1px solid rgb(234, 230, 230);
@@ -179,6 +192,8 @@ a{
 }
 .todd{
     width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .btn3{
     border: none;
@@ -188,6 +203,7 @@ a{
     padding: 8px;
     position: relative;
     top: -20px;
+    right: -20px;
 }
 .view{
     text-align: center;
