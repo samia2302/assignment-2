@@ -122,7 +122,7 @@ a{
 
 /* standard curriculum */
 .curriculum{
-    background-image:linear-gradient(white,rgb(216, 240, 250));
+    background-image: url(/Images/bg.png);
 }
 .stan{
     text-align: center;
@@ -132,11 +132,11 @@ a{
 .curri{
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 .box{
-    border: 1px solid rgb(234, 230, 230);
+    border: 1px solid rgb(205, 202, 202);
     border-radius: 10px;
-    margin-right: 20px;
     padding: 15px;
     text-align: center;
     background-image: linear-gradient(rgb(216, 240, 250), white);
@@ -176,11 +176,13 @@ a{
 
 /* our stories */
 .our{
-    background-image: url(/Images/bg.png);
+    background-image: url(/Images/bg.png), linear-gradient(white,sandybrown);
+    padding: 1px;
 }
 .fun{
     border: 1px solid rgb(234, 230, 230);
     border-radius: 10px;
+    background-color: white;
 }
 .story{
     display: grid;
@@ -208,6 +210,7 @@ a{
 .view{
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 .nov{
     padding: 15px;
@@ -233,7 +236,7 @@ a{
 .foot{
     background-color: blue;
     color: white;
-    margin-top: 30px;
+
 }
 .footer{
     max-width: 1300px;
