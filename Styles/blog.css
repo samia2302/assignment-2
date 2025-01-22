@@ -177,3 +177,19 @@ a{
 .todd{
     width: 100%;
 }
+.btn3{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: blue;
+    padding: 8px;
+}
+
+@media screen and (max-width:576px) {
+    .first{
+        display: none;
+    }
+    .story{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+}
